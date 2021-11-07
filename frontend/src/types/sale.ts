@@ -1,6 +1,12 @@
 import { type } from "os";
 
 export type SaleSum = {
-    sellerName: String,
-        sum: Number
+    sellerName: string;
+    sum: number;
+}
+
+export type SaleSuccess = {
+    sellerName: string;
+    visited: number;
+    deals: number;
 }
